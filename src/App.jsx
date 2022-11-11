@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home';
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Resume from './pages/Resume'
-import Projects from './pages/Projects'
+import { Home } from './pages/Home/Home';
+import { About} from './pages/About/About.jsx'
+import { Contact } from './pages/Contact/Contact.jsx'
+import { Resume } from './pages/Resume/Resume.jsx'
+import { Projects } from './pages/Projects/Projects.jsx'
 
 function App() {
   return (
