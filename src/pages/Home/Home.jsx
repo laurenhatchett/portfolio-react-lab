@@ -1,6 +1,10 @@
 function Home() {
   return (
-      <h1>Home</h1>
+      <>
+      <img alt=""></img>
+      <h1>Lauren Hatchett</h1>
+
+      </>
   )
 }
 

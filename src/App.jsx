@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css'
+import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home/Home';
+import  { Home }  from './pages/Home/Home';
 import { About} from './pages/About/About.jsx'
 import { Contact } from './pages/Contact/Contact.jsx'
 import { Resume } from './pages/Resume/Resume.jsx'
