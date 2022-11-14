@@ -1,11 +1,11 @@
-import { projects } from "../../data/projects"
+import { projects } from "../../data/projects.js"
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <main>
       <h1>Projects</h1>
       <ul>
-      {props.projects.map(project =>
+      {projects.map(project =>
         <li key={project.title}>
           <p>{project.title}</p>
         </li>
