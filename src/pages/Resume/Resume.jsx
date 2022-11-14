@@ -4,6 +4,4 @@ function Resume() {
   ) 
 }
 
-export {
-  Resume
-}
+export default Resume
