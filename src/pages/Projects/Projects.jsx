@@ -1,16 +1,20 @@
 import { projects } from "../../data/projects"
 
-
-function Projects() {
+const Projects = (props) => {
   return (
-    <>
+    <main>
       <h1>Projects</h1>
       <ul>
-
-
+      {props.projects.map(project =>
+        <li key={project.title}>
+          <p>{project.title}</p>
+        </li>
+      )}
       </ul>
-
+      <>
+        <Projects projects={projects}/>
       </>
+    </main>
   )
 }
 
