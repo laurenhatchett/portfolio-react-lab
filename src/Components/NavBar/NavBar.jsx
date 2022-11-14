@@ -6,9 +6,8 @@ function NavBar() {
           <Link 
               to='/'
           >
-              Your Name
+              Lauren Hatchett
           </Link>
-
           <ul>
               <li>
                   <Link
@@ -17,7 +16,6 @@ function NavBar() {
                       About
                   </Link>
               </li>
-
               <li>
                   <Link
                       to='/contact'
@@ -36,7 +34,7 @@ function NavBar() {
                   <Link
                       to='/projects'
                   >
-                      Project
+                      Projects
                   </Link>
               </li>
           </ul>

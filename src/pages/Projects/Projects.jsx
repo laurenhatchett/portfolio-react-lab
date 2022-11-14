@@ -1,20 +1,20 @@
-import { projects } from "../../data/projects.js"
+import { projects } from "../../data/projects"
 
 const Projects = () => {
   return (
-    <main>
+    <div>
       <h1>Projects</h1>
       <ul>
       {projects.map(project =>
         <li key={project.title}>
-          <p>{project.title}</p>
+          {project.title}
         </li>
       )}
       </ul>
       <>
         <Projects projects={projects}/>
       </>
-    </main>
+    </div>
   )
 }
 
