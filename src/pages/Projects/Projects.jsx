@@ -1,5 +1,5 @@
 import { projects } from "../../data/projects"
-import { ProjectList } from "../../components/ProjectsList/ProjectsList"
+import  ProjectList  from "../../components/ProjectsList/ProjectsList"
 
 const Projects = () => {
   return (
