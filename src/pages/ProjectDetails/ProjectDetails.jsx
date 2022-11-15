@@ -14,14 +14,16 @@ const ProjectDetails = () => {
 
   return (
     <main>
-      <>
-        <h1>{projects.title}</h1>
+      
         <div>
+        <h1>{projects.title}</h1>
           <p>{projects.description}</p>
         </div>
+
         <div>
           <img src={project.image} alt='screenshot'/>
         </div>
+        
         <div>
           <a href={project.repositoryLink}>
             <button>GitHub Repository</button>
@@ -32,7 +34,7 @@ const ProjectDetails = () => {
             <button>Deployed Site</button>
           </a>
         </div>
-      </>
+      
     </main>
   )
 }

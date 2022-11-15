@@ -34,7 +34,7 @@ function App() {
           element={<Projects/>}
         />
         <Route 
-          path='/projects/ProjectDetails'
+          path='/projects/:ProjectDetails'
           element={<ProjectDetails/>}
         />
     </Routes>
