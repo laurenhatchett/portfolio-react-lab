@@ -1,14 +1,15 @@
+import styles from '../Home/Home.module.css'
+import homeHeadshot from '../../assets/homeHeadshot.jpg'
 
 
 function Home() {
   return (
-      <>
-      <h1>Home</h1>
-      <img src="https://i.imgur.com/ZzgWfQn.jpg"  alt="headshot"></img>
-      <h1>Lauren Hatchett</h1>
+    <main className={styles.Home}>
+      <h1 className='title'>Lauren Hatchett</h1>
+      <img src={homeHeadshot}  alt="headshot"/>
+      <h1 className='welcome'>Welcome to my Portfolio!</h1>
       <p>Software Engineer - add description</p>
-
-      </>
+    </main>
   )
 }
 

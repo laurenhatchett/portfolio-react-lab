@@ -1,8 +1,10 @@
+import styles from '../Contact/Contact.module.css'
+
 function Contact () {
   return (
-    <main>
+    <main className={styles.Contact}>
       <>
-      <h1>Let's Connect</h1>
+      <h1>Let's Connect!</h1>
       <div>
         <a href="laurenhatchett@gmail.com">
           <img src= 'https://i.imgur.com/MNwLxHH.png' alt='Email'></img>
