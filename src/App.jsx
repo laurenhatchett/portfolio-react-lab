@@ -6,7 +6,7 @@ import Contact  from './pages/Contact/Contact.jsx'
 import Resume  from './pages/Resume/Resume.jsx'
 import Projects from './pages/Projects/Projects.jsx'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails.jsx'
-import NavBar from '../src/components/NavBar/NavBar.jsx'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
