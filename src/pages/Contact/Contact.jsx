@@ -4,16 +4,16 @@ function Contact () {
       <>
       <h1>Let's Connect</h1>
       <div>
-        <a href="www.linkedin.com/in/laurenhatchett">
-          <img src= '' alt='LinkedIn'></img>
+        <a href="laurenhatchett@gmail.com">
+          <img src= 'https://i.imgur.com/MNwLxHH.png' alt='Email'></img>
         </a>
 
-        <a href="laurenhatchett@gmail.com">
-          <img src= '' alt='Email'></img>
+        <a href="www.linkedin.com/in/laurenhatchett">
+          <img src= 'https://i.imgur.com/6Za2JTU.png' alt='LinkedIn'></img>
         </a>
 
         <a href="https://github.com/laurenhatchett">
-          <img src= '' alt='GitHub'></img>
+          <img src= 'https://i.imgur.com/F0H8mAV.png' alt='GitHub'></img>
         </a>
       </div>
       </>
