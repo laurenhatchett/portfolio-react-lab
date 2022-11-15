@@ -1,25 +1,30 @@
 import { Link } from 'react-router-dom'
+import hyphenateWords from '../../utilities/hyphenateWords'
 
 const ProjectPreview = (props) => {
+  const path = hyphenateWords(props.title)
+  console.log(path)
   return (
-    <div>
-      <img 
-        src={props.image} 
-        alt={props.title}
-      />
+    <>
+      <article>
+        <img 
+          src={props.image} 
+          alt={props.title}
+        />
 
-      <section>
-        <h3>
+        <section>
+          <h3>
             {props.title}
-        </h3>
-				<button>
-            Learn more
-        </button>
+          </h3>
+          <Link to={path}>
+			      <button>
+              Learn more
+            </button>
+          </Link>
       </section>
-    </div>
+    </article>
+    </>
   )  
 }
 
-export {
-  ProjectPreview
-}
+export default ProjectPreview

@@ -1,4 +1,5 @@
-const projects = [{
+const projects = [
+  {
   title: 'Tic Tac Toe',
   description: '',
   image: 'https://i.imgur.com/Z2ApxIL.png',

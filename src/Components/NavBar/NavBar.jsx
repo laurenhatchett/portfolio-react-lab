@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
       <nav>
+        <article>
           <Link 
               to='/'
           >
@@ -38,6 +39,9 @@ function NavBar() {
                   </Link>
               </li>
           </ul>
+        </article>
       </nav>
   )
 }
+
+export default NavBar

@@ -1,20 +1,20 @@
-import { ProjectPreview } from "../ProjectPreview/ProjectPreview"
+import ProjectPreview from "../ProjectPreview/ProjectPreview"
 
 const ProjectList = (props) => {
   return (
     <>
-      <h1>Projects</h1>
-      <ul>
-      {props.projects.map(project =>
-        <li key={project.title}>
+      <article>
+        <h1>Projects</h1>
+        <ul>
+        {props.projects.map(project =>
+        <li>
           <ProjectPreview title={project.title} image={project.image} key={project.title } />
         </li>
-      )}
-      </ul>
+        )}
+        </ul>
+      </article>
     </>
   )
 }
 
-export {
-  ProjectList
-}
+export default ProjectList

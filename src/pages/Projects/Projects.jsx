@@ -1,20 +1,13 @@
 import { projects } from "../../data/projects"
+import { ProjectList } from "../../components/ProjectsList/ProjectsList"
 
 const Projects = () => {
   return (
-    <div>
-      <h1>Projects</h1>
-      <ul>
-      {projects.map(project =>
-        <li key={project.title}>
-          {project.title}
-        </li>
-      )}
-      </ul>
+    <main>
       <>
-        <Projects projects={projects}/>
+        <ProjectList projects={projects}/>
       </>
-    </div>
+    </main>
   )
 }
 

@@ -3,9 +3,10 @@
 function Home() {
   return (
       <>
+      <h1>Home</h1>
       <img src="https://i.imgur.com/MmlMuOA.png"  alt="headshot"></img>
       <h1>Lauren Hatchett</h1>
-      <h2>Software Engineer</h2>
+      <p>Software Engineer - add description</p>
 
       </>
   )
