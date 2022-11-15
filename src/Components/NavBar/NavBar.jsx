@@ -3,43 +3,33 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
       <nav>
-        <article>
+        <div>
           <Link 
-              to='/'
+            to='/'
           >
-              Lauren Hatchett
+            Home
           </Link>
-          <ul>
-              <li>
-                  <Link
-                      to='/about'
-                  >
-                      About
-                  </Link>
-              </li>
-              <li>
-                  <Link
-                      to='/contact'
-                  >
-                      Contact
-                  </Link>
-              </li>
-              <li>
-                  <Link
-                      to='/resume'
-                  >
-                      Resume
-                  </Link>
-              </li>
-              <li>
-                  <Link
-                      to='/projects'
-                  >
-                      Projects
-                  </Link>
-              </li>
-          </ul>
-        </article>
+          <Link
+            to='/about'
+          >
+            About
+          </Link>
+          <Link
+            to='/projects'
+          >
+            Projects
+          </Link>
+          <Link
+            to='/resume'
+          >
+            Resume
+          </Link>
+          <Link
+            to='/contact'
+          >
+          Contact
+          </Link> 
+        </div>
       </nav>
   )
 }

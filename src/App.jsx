@@ -37,7 +37,7 @@ function App() {
           path='/projects/ProjectDetails'
           element={<ProjectDetails/>}
         />
-      </Routes>
+    </Routes>
     </>
   );
 }
