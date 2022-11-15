@@ -1,10 +1,10 @@
 import { projects } from "../../data/projects";
 import findProject from "../../utilities/findProject";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const ProjectDetails = () => {
-  const params = useParams()
+  // const params = useParams()
   const location = useLocation()
   let locProj = location.pathname
   locProj = locProj.replace('/projects/', '')
@@ -23,7 +23,7 @@ const ProjectDetails = () => {
         <div>
           <img src={project.image} alt='screenshot'/>
         </div>
-        
+
         <div>
           <a href={project.repositoryLink}>
             <button>GitHub Repository</button>

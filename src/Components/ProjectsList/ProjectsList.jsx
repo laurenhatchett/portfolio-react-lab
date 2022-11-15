@@ -6,7 +6,7 @@ import styles from '../ProjectsList/ProjectsList.module.css'
 const ProjectsList = (props) => {
   return (
     <>
-      <article className='Projects-List'>
+      <article className={styles.ProjectsList}>
         <h1>Projects</h1>
         <div className='project-container'>
         {props.projects.map(project =>
