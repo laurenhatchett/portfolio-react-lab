@@ -7,8 +7,6 @@ function Home() {
     <main className={styles.Home}>
       <h1 className='title'>Lauren Hatchett</h1>
       <img src={homeHeadshot}  alt="headshot"/>
-      <h1 className='welcome'>Welcome to my Portfolio!</h1>
-      <p>Software Engineer - add description</p>
     </main>
   )
 }

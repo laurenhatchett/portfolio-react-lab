@@ -11,7 +11,11 @@ const ProjectsList = (props) => {
         <div className='project-container'>
         {props.projects.map(project =>
         <div className='project-card'>
-          <ProjectPreview title={project.title} image={project.image} key={project.title } />
+        <ProjectPreview 
+          title={project.title} 
+          image={project.image} 
+          key={project.title } 
+        />
         </div>
         )}
         </div>

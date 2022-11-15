@@ -14,9 +14,9 @@ const ProjectPreview = (props) => {
         />
 
         <section>
-          <h3>
+          <h1>
             {props.title}
-          </h3>
+          </h1>
           <Link to={path}>
 			      <button>
               Learn more

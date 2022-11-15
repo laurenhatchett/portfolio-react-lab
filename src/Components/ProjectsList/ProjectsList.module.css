@@ -9,10 +9,19 @@ image {
   height: 500px;
 }
 
+title {
+  text-align: center;
+}
+
+button {
+  align-content: center;
+}
+
 project-container {
   
 }
 
 project-card {
-  
+  align-content: center;
+
 }
