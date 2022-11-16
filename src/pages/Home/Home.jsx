@@ -4,10 +4,13 @@ import homeHeadshot from '../../assets/homeHeadshot.jpg'
 
 function Home() {
   return (
-    <main className={styles.Home}>
-      <h1 className='title'>Lauren Hatchett</h1>
-      <img src={homeHeadshot}  alt="headshot"/>
-    </main>
+    <>
+      <div className={styles.Home}>
+        <img src={homeHeadshot}  alt="headshot"/>
+      </div>
+        <h1 className='home-title'>Hi, my name is Lauren Hatchett.</h1>
+        <h3 className='home-description'>I am a Software Engineer with a background in education, language, and science.</h3>
+    </>
   )
 }
 

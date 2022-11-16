@@ -1,4 +1,18 @@
-Contact{
-  display:flex;
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content:center;
   padding: 20px;
+}
+
+.contact > a {
+  padding: 0 10px 0 10px;
+}
+
+.contact > a > img {
+  height:50px;
+}
+
+h1 {
+  text-align: center;
 }

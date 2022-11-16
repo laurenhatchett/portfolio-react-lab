@@ -4,9 +4,7 @@ import  ProjectsList  from "../../components/ProjectsList/ProjectsList"
 const Projects = () => {
   return (
     <main>
-      <>
         <ProjectsList projects={projects}/>
-      </>
     </main>
   )
 }

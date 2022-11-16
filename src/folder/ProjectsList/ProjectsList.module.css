@@ -1,11 +1,10 @@
-Projects-List{
-  background-color: red;
-}
-Project-List li {
+
+
+.projectList li {
   size: 300px;
 }
 
-.ProjectList image {
+.projectList image {
   height: 500px;
 }
 
