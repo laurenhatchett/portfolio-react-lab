@@ -1,11 +1,10 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home   from './pages/Home/Home.jsx'
-import About from './pages/About/About.jsx'
-import Contact  from './pages/Contact/Contact.jsx'
-import Resume  from './pages/Resume/Resume.jsx'
-import Projects from './pages/Projects/Projects.jsx'
-import ProjectDetails from './pages/ProjectDetails/ProjectDetails.jsx'
+import Home   from './components/Home/Home'
+import About from './components/About/About'
+import Contact  from './components/Contact/Contact'
+import Resume  from './components/Resume/Resume'
+import ProjectCard from './components/Project Card/ProjectCard'
 import NavBar from './components/NavBar/NavBar'
 
 function App() {
@@ -31,11 +30,7 @@ function App() {
         />
         <Route 
           path='/projects'
-          element={<Projects/>}
-        />
-        <Route 
-          path='/projects/:ProjectDetails'
-          element={<ProjectDetails/>}
+          element={<ProjectCard/>}
         />
     </Routes>
     </>
