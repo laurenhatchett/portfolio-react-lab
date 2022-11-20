@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
           <img 
             src={props.image} 
             alt={props.title}
-            className='card-image'
+            className={styles.cardImage}
           />
           </div>
 
@@ -23,9 +23,9 @@ const ProjectCard = (props) => {
             <h2>
               {props.title}
             </h2>
-			        <button>
-                Learn more
-              </button>
+			      <button>
+              Learn more
+            </button>
         </div>
       </div>
     </Link>

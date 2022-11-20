@@ -1,11 +1,9 @@
 import { projects } from "../../data/projects";
 import findProject from "../../utilities/findProject";
-// import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import NavBar from "../../components/NavBar/NavBar";
+
 
 const ProjectDetails = () => {
-  // const params = useParams()
   const location = useLocation()
   let locProj = location.pathname
   locProj = locProj.replace('/projects/', '')
@@ -15,7 +13,6 @@ const ProjectDetails = () => {
 
   return (
     <main>
-
         <div>
           <img src={project.image} alt='screenshot'/>
         </div>
@@ -35,6 +32,7 @@ const ProjectDetails = () => {
             <button>Deployed Site</button>
           </a>
         </div>
+        
       
     </main>
   )

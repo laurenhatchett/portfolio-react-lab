@@ -1,19 +1,39 @@
 .container {
   border: 2px solid black;
-  height: 200px;
+  height: 300px;
   width: 200px;
-  margin: 20px;
+  margin: 40px;
 }
 
 .image {
-  block-size: 50%;
+  block-size: 65%;
 }
 
+.cardImage {
+  height: auto;
+  max-width: 100%;
+
+}
 .body{
-  block-size: 50%;
+  block-size: 35%;
+}
+
+.body > h2 {
+  text-align: center;
+}
+
+.body > button {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  
 }
 
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+a:hover {
+  background:blue;
 }

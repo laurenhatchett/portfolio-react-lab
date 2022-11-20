@@ -7,7 +7,7 @@ function NavBar() {
           <Link 
             to='/'
           >
-            Home
+            Lauren Hatchett
           </Link>
           <Link
             to='/about'
