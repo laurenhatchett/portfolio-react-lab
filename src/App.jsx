@@ -1,11 +1,12 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home   from './components/Home/Home'
+import Home   from './pages/Home/Home'
 import About from './components/About/About'
 import Contact  from './components/Contact/Contact'
 import Resume  from './components/Resume/Resume'
-import ProjectCard from './components/Project Card/ProjectCard'
+import Projects from './pages/Projects/Projects'
 import NavBar from './components/NavBar/NavBar'
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 
 function App() {
   return (
@@ -30,7 +31,11 @@ function App() {
         />
         <Route 
           path='/projects'
-          element={<ProjectCard/>}
+          element={<Projects/>}
+        />
+        <Route 
+          path='/projects/:projectDetails'
+          element={<ProjectDetails/>}
         />
     </Routes>
     </>

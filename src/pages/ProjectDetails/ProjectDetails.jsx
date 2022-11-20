@@ -1,7 +1,8 @@
 import { projects } from "../../data/projects";
-import findProject from "../../../utilities/findProject";
+import findProject from "../../utilities/findProject";
 // import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import NavBar from "../../components/NavBar/NavBar";
 
 const ProjectDetails = () => {
   // const params = useParams()
@@ -14,16 +15,16 @@ const ProjectDetails = () => {
 
   return (
     <main>
-      
-        <div>
-        <h1>{projects.title}</h1>
-          <p>{projects.description}</p>
-        </div>
 
         <div>
           <img src={project.image} alt='screenshot'/>
         </div>
 
+        <div>
+        <h1>{project.title}</h1>
+        <p>{project.description}</p>
+        </div>
+        
         <div>
           <a href={project.repositoryLink}>
             <button>GitHub Repository</button>

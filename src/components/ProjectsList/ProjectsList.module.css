@@ -1,0 +1,10 @@
+
+.projectsList{
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid green;
+}
+
+
+
+
