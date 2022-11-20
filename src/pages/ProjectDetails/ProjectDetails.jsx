@@ -1,40 +1,34 @@
-import { projects } from "../../data/projects";
+import { useParams } from "react-router-dom";
 import findProject from "../../utilities/findProject";
-import { useLocation } from "react-router-dom";
-
+import styles from './ProjectDetails.module.css'
 
 const ProjectDetails = () => {
-  const location = useLocation()
-  let locProj = location.pathname
-  locProj = locProj.replace('/projects/', '')
-  const project = findProject(locProj)
-  
+  const {projectDetails} = useParams()
+  const project = findProject(projectDetails)
   console.log(project)
 
   return (
-    <main>
-        <div>
+    <>
+    <div className={styles.detailsPage}>
+      <div className={styles.detailsContainer}>
+        <div className={styles.detailsImage}>
           <img src={project.image} alt='screenshot'/>
         </div>
-
-        <div>
-        <h1>{project.title}</h1>
+      <div className={styles.detailsInfo}>
+        <h2>{project.title}</h2>
         <p>{project.description}</p>
         </div>
-        
-        <div>
+        <div className={styles.buttons}>
           <a href={project.repositoryLink}>
             <button>GitHub Repository</button>
           </a>
-        </div>
-        <div>
           <a href={project.deploymentLink}>
             <button>Deployed Site</button>
           </a>
         </div>
-        
-      
-    </main>
+      </div>
+    </div>
+    </>
   )
 }
 

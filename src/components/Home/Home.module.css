@@ -1,4 +1,8 @@
 
+.headshotContainer {
+  margin-top: 50px;
+}
+
 .Home > img {
   height: 400px;
   display: block;

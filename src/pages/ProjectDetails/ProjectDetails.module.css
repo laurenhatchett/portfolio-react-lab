@@ -1,4 +1,41 @@
-a {
+.detailsPage {
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.detailsContainer {
+  display: block;
+  margin-top: 100px;
+  border: 2px solid black;
+  height: auto;
+  max-width: 100%;
+}
+
+.detailsImage  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsInfo h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsInfo p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
   align-content: center;
+  justify-content: center;
+}
+
+a {
+  padding: 0 10px 10px 10px;
 }
