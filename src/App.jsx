@@ -7,6 +7,7 @@ import Resume  from './components/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import NavBar from './components/NavBar/NavBar'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
+import Skills from './components/Skills/Skills'
 
 function App() {
   return (
@@ -21,14 +22,6 @@ function App() {
           path='/about'
           element={<About/>}
         />
-        <Route
-          path='/contact'
-          element={<Contact/>}
-        />
-        <Route 
-          path='/resume'
-          element={<Resume/>}
-        />
         <Route 
           path='/projects'
           element={<Projects/>}
@@ -36,6 +29,18 @@ function App() {
         <Route 
           path='/projects/:projectDetails'
           element={<ProjectDetails/>}
+        />
+        <Route 
+          path='/skills'
+          element={<Skills/>}
+        />
+        <Route 
+          path='/resume'
+          element={<Resume/>}
+        />
+        <Route
+          path='/contact'
+          element={<Contact/>}
         />
     </Routes>
     </>

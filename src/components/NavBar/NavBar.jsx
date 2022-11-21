@@ -20,6 +20,11 @@ function NavBar() {
             Projects
           </Link>
           <Link
+            to='/skills'
+          >
+            Skills
+          </Link>
+          <Link
             to='/resume'
           >
             Resume

@@ -3,7 +3,7 @@ import styles from '../ProjectsList/ProjectsList.module.css'
 
 
 
-const ProjectsList = (props) => {
+function ProjectsList (props) {
   return (
     <>
       

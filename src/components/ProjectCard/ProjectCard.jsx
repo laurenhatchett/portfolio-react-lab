@@ -4,7 +4,7 @@ import styles from '../ProjectCard/ProjectCard.module.css'
 
 
 
-const ProjectCard = (props) => {
+function ProjectCard (props) {
   const path = hyphenateWords(props.title)
 
   return (

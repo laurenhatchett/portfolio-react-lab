@@ -1,0 +1,107 @@
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:10em 10em 0 10em;
+  border: 1px solid blue;
+}
+
+.HTML {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.HTML img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.CSS3 {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.CSS3 img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.JavaScript {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.JavaScript img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.Git {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.Git img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.Express {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.Express img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.NodeJS {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.NodeJS img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.MongoDB {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.MongoDB img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.React {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.React img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.Python {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.Python img {
+  border: 1px solid purple;
+  height: 3em;
+}
+
+.Django {
+  margin: .5em;
+  border: 1px solid red;
+}
+
+.Django img {
+  border: 1px solid purple;
+  height: 3em;
+}
