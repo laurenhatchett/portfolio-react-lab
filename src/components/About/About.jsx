@@ -3,11 +3,19 @@ import aboutHeadshot from '../../assets/aboutHeadshot.jpg'
 
 function About() {
   return (
-    <main className={styles.about}>
+    <>
+      <div className={styles.title}>
         <h1>About</h1>
-        <img src={aboutHeadshot} alt='headshot'/>
-        <p> Hi! My name is Lauren Hatchett. I am former educator turned Software Engineer. </p>
-    </main>
+      </div>
+      <div className={styles.about}>
+        <div className={styles.aboutImage}>
+          <img src={aboutHeadshot} alt='headshot'/>
+        </div>
+        <div className={styles.description}>
+          <p> Before transitioning into Software Engineering, I was an ESL (English of Second Language) Instructor. I have a passion for language and inclusion. As a Software Engineer, I am committed to providing a positive and human-centered experience that serves users with equity and efficiency.  </p>
+        </div>
+    </div>
+    </>
   )
 }
 

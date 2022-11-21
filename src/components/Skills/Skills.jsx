@@ -12,6 +12,8 @@ import Django from '../../assets/Django.png'
 
 function Skills () {
   return (
+    <>
+    <h1>Skills</h1>
     <div className={styles.skillsContainer}>
 
       <div className={styles.HTML}>
@@ -25,7 +27,9 @@ function Skills () {
       </div>
 
       <div className={styles.JavaScript}>
-        <img src={JavaScript} alt='JavaScript icon'/>
+        <div className={styles.JSimageContainer}>
+          <img src={JavaScript} alt='JavaScript icon'/>
+        </div>
         <p>JavaScript</p>
       </div>
 
@@ -45,7 +49,9 @@ function Skills () {
       </div>
 
       <div className={styles.MongoDB}>
-        <img src={MongoDB} alt='MongoDB icon'/>
+        <div className={styles.mongoImageContainer}>
+          <img src={MongoDB} alt='MongoDB icon'/>
+        </div>
         <p>MongoDB</p>
       </div>
 
@@ -65,6 +71,7 @@ function Skills () {
       </div>
 
     </div>
+    </>
 
   )
 }

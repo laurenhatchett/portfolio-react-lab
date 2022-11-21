@@ -2,13 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin:10em 10em 0 10em;
-  border: 1px solid blue;
+  margin:6em 10em 0 10em;
 }
 
 .HTML {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .HTML img {
@@ -18,7 +16,7 @@
 
 .CSS3 {
   margin: .5em;
-  border: 1px solid red;
+
 }
 
 .CSS3 img {
@@ -26,82 +24,97 @@
   height: 3em;
 }
 
+.CSS3 p {
+  text-align: center;
+}
+
 .JavaScript {
   margin: .5em;
-  border: 1px solid red;
+}
+
+.JSimageContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .JavaScript img {
-  border: 1px solid purple;
   height: 3em;
+}
+
+.JavaScript p {
+  padding-top: 0.4em;
 }
 
 .Git {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .Git img {
-  border: 1px solid purple;
   height: 3em;
+}
+
+.Git p {
+  text-align: center;
+  padding-top: 0.2em;
 }
 
 .Express {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .Express img {
-  border: 1px solid purple;
   height: 3em;
+}
+
+.Express p {
+  padding-top: .2em;
 }
 
 .NodeJS {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .NodeJS img {
-  border: 1px solid purple;
   height: 3em;
 }
 
 .MongoDB {
   margin: .5em;
-  border: 1px solid red;
+}
+
+.mongoImageContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .MongoDB img {
-  border: 1px solid purple;
   height: 3em;
+}
+
+.MongoDB p {
+  padding-top: 0.2em;
 }
 
 .React {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .React img {
-  border: 1px solid purple;
   height: 3em;
 }
 
 .Python {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .Python img {
-  border: 1px solid purple;
   height: 3em;
 }
 
 .Django {
   margin: .5em;
-  border: 1px solid red;
 }
 
 .Django img {
-  border: 1px solid purple;
   height: 3em;
 }

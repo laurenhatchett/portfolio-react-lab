@@ -12,7 +12,7 @@ function Home() {
     
         <div className= {styles.introduction}>
           <h1 className={styles.homeTitle}>Hi, my name is Lauren Hatchett.</h1>
-          <h3 className={styles.homeDescription}>I am a Software Engineer with a background in education, language, and science.</h3>
+          <p className={styles.homeDescription}>I am a Software Engineer with a background in education, language, and science.</p>
         </div>
       </div>
 

@@ -1,11 +1,18 @@
 
 .Home {
-  margin: 10px 10px 10px 10px;
+  margin: 7em 2em 2em 2em;
   display: flex;
 }
 
+.image {
+  height:100%;
+  max-width: 40%;
+
+}
+
 .Home img {
-  height: 400px;
+  max-height: 20%;
+  max-width: 100%;
   display: inline;
   margin-left: auto;
   margin-right: auto;
@@ -15,18 +22,18 @@
 }
 
 .introduction {
+  margin-top: 5em;
   padding: 30px;
 }
 
 .homeTitle {
   display: flex;
   font-size: x-large;
-  
-  
 }
 
 .homeDescription {
   padding-right: 30px;
+  margin-top: 3em;
 }
 
 
