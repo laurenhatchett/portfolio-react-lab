@@ -8,11 +8,16 @@ function Contact () {
   return (
     <>
       <h1>Let's connect!</h1>
+
       <div className={styles.contact}>
       
+        
+
+        
         <a href="laurenhatchett@gmail.com">
           <img src={emailIcon} alt='Email'></img>
         </a>
+          
 
         <a href="www.linkedin.com/in/laurenhatchett">
           <img src={linkedinIcon} alt='LinkedIn'></img>
@@ -20,7 +25,9 @@ function Contact () {
     
         <a href="https://github.com/laurenhatchett">
           <img src={githubIcon} alt='GitHub'></img>
-        </a> 
+        </a>
+
+
       </div>
     </>
   )

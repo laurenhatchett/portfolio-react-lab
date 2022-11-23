@@ -19,10 +19,10 @@ function ProjectDetails () {
         </div>
         <div className={styles.buttons}>
           <a href={project.repositoryLink}>
-            <button>GitHub Repository</button>
+            <button className={styles.button}>GitHub Repository</button>
           </a>
           <a href={project.deploymentLink}>
-            <button>Deployed Site</button>
+            <button className={styles.button}>Deployed Site</button>
           </a>
         </div>
       </div>

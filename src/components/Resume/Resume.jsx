@@ -9,7 +9,9 @@ function Resume() {
         <a href="https://drive.google.com/file/d/1IhxhB8q64QES_tCeeEtb_qojwVFmX4aG/view?usp=sharing">
         <img src={resumeIcon} alt='Resume'></img>
         </a>
-        <p>To learn more about my work and experience, click the resume image to download a copy</p>
+        <div className={styles.description}>
+        <p>To learn more about my work and experience, click the resume icon to download a copy!</p>
+        </div>
     
     </div>
   ) 

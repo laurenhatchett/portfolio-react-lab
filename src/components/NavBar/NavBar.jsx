@@ -17,7 +17,7 @@ function NavBar() {
           <Link
             to='/projects'
           >
-            Projects
+            My Work
           </Link>
           <Link
             to='/skills'
