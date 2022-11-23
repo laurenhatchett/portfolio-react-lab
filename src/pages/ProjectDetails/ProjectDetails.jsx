@@ -5,7 +5,6 @@ import styles from './ProjectDetails.module.css'
 function ProjectDetails () {
   const {projectDetails} = useParams()
   const project = findProject(projectDetails)
-  console.log(project)
 
   return (
     <>

@@ -1,3 +1,5 @@
+
+
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -7,12 +9,13 @@
 
 .card {
   background: white;
-  padding: 1rem;
+  padding: 1rem 0;
   border: 2px solid black;
   border-radius: 0.25rem;
-  height: 400px;
+  height: 350px;
   width: 300px; 
   margin: 3rem;
+
 }
 
 .cardimage {
@@ -20,10 +23,10 @@
   justify-content: center;
   overflow: hidden;
   margin-bottom: .5rem;
-  
-  border: 2px solid slateblue
-  
+  position: relative;
 }
+
+
 
 .image {
   height: auto;
@@ -31,10 +34,6 @@
   max-width: 300px;
   max-height: 200px;;
   padding: 0;
-  border: 1px solid red
-
-  
-  
 }
 
 
@@ -49,17 +48,16 @@
 }
 
 .footer {
-  block-size: 15%;
+  display: flex;
   margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer > button {
   display: flex;
   text-align: center;
-  margin: auto;
   justify-content: center;
-  
-  
 }
 
 a {
