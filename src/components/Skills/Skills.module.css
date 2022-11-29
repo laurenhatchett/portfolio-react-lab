@@ -1,3 +1,7 @@
+.body {
+  height: 100vh
+}
+
 .skillsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -114,5 +118,13 @@
 }
 
 .Django img {
+  height: 3em;
+}
+
+.Docker {
+  margin: .5em;
+}
+
+.Docker img {
   height: 3em;
 }

@@ -9,6 +9,7 @@ import MongoDB from '../../assets/MongoDB.png'
 import React from '../../assets/React.png'
 import Python from '../../assets/Python.png'
 import Django from '../../assets/Django.png'
+import Docker from '../../assets/Docker.png'
 
 function Skills () {
   return (
@@ -68,6 +69,11 @@ function Skills () {
       <div className={styles.Django}>
         <img src={Django} alt='Django icon'/>
         <p>Django</p>
+      </div>
+
+      <div className={styles.Docker}>
+        <img src={Docker} alt='Docker icon'/>
+        <p>Docker</p>
       </div>
 
     </div>

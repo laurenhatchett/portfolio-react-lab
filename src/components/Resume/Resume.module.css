@@ -1,3 +1,6 @@
+body {
+  height: 100vh;
+}
 
 .resume h1 {
   text-align: center;
