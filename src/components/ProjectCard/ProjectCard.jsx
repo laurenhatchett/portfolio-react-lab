@@ -1,11 +1,12 @@
-import { Link } from 'react-router-dom'
-import hyphenateWords from '../../utilities/hyphenateWords'
+import { useState } from 'react'
 import styles from '../ProjectCard/ProjectCard.module.css'
+import Modal from '../Modal/Modal'
 
 
 
 function ProjectCard (props) {
-  const path = hyphenateWords(props.title)
+  const [openModal, setOpenModal] = useState(false)
+  
 
   return (
     <>
@@ -29,9 +30,15 @@ function ProjectCard (props) {
           </div>
 
           <div className={styles.footer}>
-            <Link to={path}>
-              <button className={styles.button}>Learn More</button>
-            </Link>
+              <button 
+                className={styles.button}
+                onClick={() => {
+                  setOpenModal(true)
+                }}
+              >
+                Learn More
+              </button>
+              {openModal && <Modal closeModal={setOpenModal} />}
           </div>
 
         </div>
