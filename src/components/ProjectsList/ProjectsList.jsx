@@ -4,6 +4,7 @@ import styles from '../ProjectsList/ProjectsList.module.css'
 
 
 function ProjectsList (props) {
+  
   return (
     <>
       
@@ -12,6 +13,7 @@ function ProjectsList (props) {
           <ProjectCard title={project.title} image={project.image} key={idx} />
         )}
         </div>
+      
     
     </>
   )

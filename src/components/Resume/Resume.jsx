@@ -1,19 +1,41 @@
+import { Link } from 'react-router-dom'
 import styles from '../Resume/Resume.module.css'
-import resumeIcon from '../../assets/resumeIcon.png'
+import LHResume from '../../files/LHResume.pdf'
+import { Document, Page, pdfjs } from 'react-pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
+
 
 function Resume() {
   return (
-    <div className={styles.resume}>
+    <>
+  
+        
+    <Link to='../../files/LHResume.pdf'>
+    </Link>
+
+    <a href='../../files/LHResume.pdf' download='lauren-hatchett-resume'>
+      Click to Download
+    </a>
+        
       
-        <h1>Resume</h1>
-        <a href="https://drive.google.com/file/d/1IhxhB8q64QES_tCeeEtb_qojwVFmX4aG/view?usp=sharing">
-        <img src={resumeIcon} alt='Resume'></img>
-        </a>
+      
+    
+    
+    <div className={styles.resume}>
+      <h1>Resume</h1>
+        <Document
+          file={LHResume}
+        >
+          <Page pageIndex={0}/>
+        </Document>
+        
         <div className={styles.description}>
-        <p>To learn more about my work and experience, click the resume icon to download a copy!</p>
+      
         </div>
     
     </div>
+
+    </>
   ) 
 }
 

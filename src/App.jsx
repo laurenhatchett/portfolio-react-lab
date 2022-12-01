@@ -6,7 +6,6 @@ import Contact  from './components/Contact/Contact'
 import Resume  from './components/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import NavBar from './components/NavBar/NavBar'
-import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 import Skills from './components/Skills/Skills'
 
 function App() {
@@ -25,10 +24,6 @@ function App() {
         <Route 
           path='/projects'
           element={<Projects/>}
-        />
-        <Route 
-          path='/projects/:projectDetails'
-          element={<ProjectDetails/>}
         />
         <Route 
           path='/skills'

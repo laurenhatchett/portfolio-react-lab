@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '../Modal/Modal.module.css'
 
+
 function Modal({closeModal}) {
   return (
     <div className={styles.modalBackgound}>
       <div className={styles.modalContainer}>
-        
         <div className={styles.titleCloseButton}>
           <button  
             onClick={() => {
@@ -22,6 +22,7 @@ function Modal({closeModal}) {
 
         <div className={styles.body}>
           <p>Information</p>
+        
         </div>
 
         <div className={styles.footer}>
