@@ -1,13 +1,9 @@
-import { useState } from 'react'
 import styles from '../ProjectCard/ProjectCard.module.css'
-import Modal from '../Modal/Modal'
+
 
 
 
 function ProjectCard (props) {
-  const [openModal, setOpenModal] = useState(false)
-  
-
   return (
     <>
       <div className={styles.grid}>
@@ -30,15 +26,12 @@ function ProjectCard (props) {
           </div>
 
           <div className={styles.footer}>
-              <button 
-                className={styles.button}
-                onClick={() => {
-                  setOpenModal(true)
-                }}
-              >
-                Learn More
-              </button>
-              {openModal && <Modal closeModal={setOpenModal} />}
+            <a href={props.repositoryLink}>
+              <button className={styles.button}>GitHub Repository</button>
+            </a>
+            <a href={props.deploymentLink}>
+              <button className={styles.button}>Deployed Site</button>
+            </a>
           </div>
 
         </div>
