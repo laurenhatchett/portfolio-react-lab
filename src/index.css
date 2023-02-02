@@ -31,3 +31,18 @@ code {
   font-family: 'Work Sans', sans-serif;
 }
 
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color:black
+}
+
+a:hover {
+  opacity:40%;
+}
+
+span {
+  padding: 0.1em 0.3em;
+}
+

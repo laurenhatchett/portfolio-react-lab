@@ -1,5 +1,6 @@
-body{
-  height: 100vh;
+
+.contactContainer {
+  margin: 3rem 0 3rem 0;
 }
 
 .contact {
@@ -9,7 +10,6 @@ body{
   margin-top: 4em;
   padding: 2em;
 }
-
 .contact > a {
   padding: 0 2em 0 2em;
 }

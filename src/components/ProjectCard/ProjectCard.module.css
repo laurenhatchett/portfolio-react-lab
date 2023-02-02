@@ -9,7 +9,7 @@
 
 .card {
   background: white;
-  border: 3px solid black;
+  border: 3px solid #336b6f;
   border-radius: 0.25rem;
   height: 320px;
   width: 300px; 
@@ -62,15 +62,13 @@ a {
   text-decoration: inherit;
 }
 
-a:hover {
-  background: #84d66c;
-}
 
 .button{
-  --color: hsl(44, 17%, 69%);
+  --color: #b66d38;
   background: var(--color);
   border:none;
-  padding: .5em;
+  margin: 0.25em;
+  padding: 0.5em;
   border-radius: .25em;
 }
 
