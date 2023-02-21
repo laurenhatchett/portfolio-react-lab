@@ -4,7 +4,7 @@ import aboutHeadshot from '../../assets/aboutHeadshot.jpg'
 function About() {
   return (
     <>
-      <div className={styles.title}>
+      <div className={styles.title} id='about'>
         <h1>About</h1>
       </div>
       <div className={styles.about}>

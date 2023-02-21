@@ -21,7 +21,7 @@ function Resume() {
       
     
     
-    <div className={styles.resume}>
+    <div className={styles.resume} id='resume'>
       <h1>Resume</h1>
         <Document
           file={LHResume}

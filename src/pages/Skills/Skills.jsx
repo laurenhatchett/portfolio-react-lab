@@ -15,7 +15,7 @@ function Skills () {
   return (
     <>
     <h1>Skills</h1>
-    <div className={styles.skillsContainer}>
+    <div className={styles.skillsContainer} id='skills'>
 
       <div className={styles.HTML}>
         <img src={HTML5} alt='HTML5 icon'/>

@@ -6,7 +6,7 @@ import styles from './Projects.module.css'
 
 function Projects () {
   return (
-    <div className={styles.projectContainer}>
+    <div className={styles.projectContainer} id='projects'>
       <h1 >My Work</h1>
       <ProjectsList projects={projects}/>
     </div>

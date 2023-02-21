@@ -8,6 +8,7 @@
 }
 
 .image {
+  margin-left: 1rem;
   display:flex;
   height:100%;
   max-width: 40%;

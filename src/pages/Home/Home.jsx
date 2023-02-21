@@ -5,7 +5,7 @@ import homePageHeadshot from '../../assets/homePageHeadshot.jpg'
 function Home() {
   return (
     <>
-      <div className={styles.home}>
+      <div className={styles.home} id='home'>
         <div className={styles.image}>
           <img src={homePageHeadshot}  alt="headshot"/>
         </div>

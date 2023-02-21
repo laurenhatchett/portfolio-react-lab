@@ -6,7 +6,7 @@ import githubIcon from '../../assets/githubIcon.png'
 
 function Contact () {
   return (
-    <div className={styles.contactContainer}>
+    <div className={styles.contactContainer} id='contact'>
       <h1>Let's connect!</h1>
 
       <div className={styles.contact}>

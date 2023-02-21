@@ -10,7 +10,7 @@ function ProjectsList (props) {
       
         <div className={styles.projectsList}>
           {props.projects.map((project, idx) =>
-          <ProjectCard title={project.title} image={project.image} key={idx} />
+          <ProjectCard title={project.title} image={project.image} repositoryLink={project.repositoryLink}  deploymentLink={project.deploymentLink} key={idx} />
         )}
         </div>
       
