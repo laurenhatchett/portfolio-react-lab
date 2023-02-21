@@ -6,6 +6,10 @@
   gap: 1rem;
   align-items: flex-start;
 }
+.grid:hover .description  {
+  display: flex;
+}
+
 
 .card {
   background: white;
@@ -33,6 +37,23 @@
   max-width: 300px;
   max-height: 200px;
   padding: 0;
+}
+
+.description {
+  display:none;
+  justify-content: center;
+  height: 100%;
+  width: 100%; 
+  max-width: 300px;
+  max-height: 200px;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  color:#fff;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:2;
+  transition:all 5s ease-out;
 }
 
 .body > h2 {

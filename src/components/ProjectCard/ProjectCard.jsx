@@ -16,6 +16,7 @@ function ProjectCard (props) {
                 alt={props.title}
                 className={styles.image}
                 />
+                <p className={styles.description}>{props.description}</p>
             
           </div>
 

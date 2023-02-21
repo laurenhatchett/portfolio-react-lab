@@ -1,12 +1,13 @@
 import styles from './NavBar.module.css'
 import { useState } from 'react'
+import MobileNav from '../MobileNav/MobileNav'
 
-function NavBar() {
+function NavBar({}) {
 
   const [showModal, setShowModal] = useState(false)
 
   const handleClick = () => {
-    setShowModal((prev) => !prev)
+    setShowModal((prev) => !prev) 
   }
 
   return (
@@ -28,21 +29,8 @@ function NavBar() {
         </ul>
       </div>
 
-
-      <div className={styles.mobileLink} style={{ display: showModal ? "flex" : "none" }}>
-        <button className={styles.closeNav} onClick={handleClick}>
-          X
-        </button>
-        <ul>
-          <li><a href="#home" onClick={handleClick}>Home</a></li>
-          <li><a href="#about" onClick={handleClick}  >About</a></li>
-          <li><a href="#projects" onClick={handleClick}>My Work</a></li>
-          <li><a href="#skills" onClick={handleClick}
-          >Skills</a></li>
-          <li><a href="#resume" onClick={handleClick} >Resume</a></li>
-        </ul>
-      </div>
-
+      <MobileNav handleClick={handleClick} showModal={showModal} />
+    
     </nav>
   )
 }
