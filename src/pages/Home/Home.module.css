@@ -1,17 +1,21 @@
 
 .home {
-  margin: 7em 2em 2em 2em;
+  margin-top: 4rem;
   display: flex;
-  align-items: center;
-  max-height: 1200px;
-  width: 100%
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* max-height: 1200px; */
+  /* width: 100%; */
+  height:100vh;
+}
+
+span {
+  color:#b66d38;
 }
 
 .image {
-  margin-left: 1rem;
-  display:flex;
   height:100%;
-  max-width: 40%;
+  width: 50%;
   
 }
 
@@ -26,8 +30,9 @@
 }
 
 .introduction {
-  margin-top: 5em;
+  /* margin-top: 5em; */
   padding: 30px;
+  width: 50%;
 }
 
 .homeTitle {
@@ -39,10 +44,11 @@
   padding-right: 30px;
   margin-top: 2em;
   font-size: 30px;
+  line-height: 1.2em;
   text-align: center;
 }
 
-@media  (max-width: 601px){
+/* @media  (max-width: 601px){
   .home {
     margin-top: 8rem;
     display: flex;
@@ -69,4 +75,4 @@
   }
 
 
-}
+} */

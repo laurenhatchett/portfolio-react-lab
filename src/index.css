@@ -8,17 +8,13 @@
   text-decoration: none;
 }
 
-:root {
 
-}
 
 html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 body {
   margin: 0;

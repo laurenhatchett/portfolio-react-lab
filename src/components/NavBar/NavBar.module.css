@@ -1,17 +1,18 @@
 .navbar {
-  background-color: none;
+  background-color:#336b6f ;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1.5em 2em;
+  margin:0;
+  height: 4rem;
   width:100%;
   z-index: 10;
 }
 
 .brand {
   font-size: 3rem;
-
+  color: #eae2cc;
 }
 
 .links ul {
@@ -30,7 +31,7 @@
   text-decoration: none;
   display: block;
   padding: 1rem;
-  color: #b66d38;
+  color: #eae2cc;
   font-size: 1.25rem;
 }
 
@@ -65,37 +66,9 @@
   margin: 0.25rem;
   padding: 0.15rem;
   width:100%;
-  background-color: #b66d38;
+  background-color: #eae2cc;
   border-radius: 10px;
 }
-
-.mobileLink {
-  position:fixed;
-  top:0;
-  left:0;
-  background-color:white;
-  width: 100vw;
-  height:100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
-  transition:all .5s ease-in-out;
-}
-
-.mobileLink ul li {
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-.closeNav {
-  position:absolute;
-  top:1rem;
-  right:1rem;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
 
 
 @media (max-width: 601px){

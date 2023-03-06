@@ -30,6 +30,9 @@
 .description {
   height: auto;
   width: 50%;
+  font-size:x-large;
+  line-height: 1.5em;
+  margin-left: 8em;
   padding: 10em 1em 0 0em;
 }
 

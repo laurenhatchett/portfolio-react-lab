@@ -1,0 +1,33 @@
+.mobileLink {
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#eae2cc;
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  transition:all .5s ease-in-out;
+}
+
+.mobileLink ul li  {
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  color:#b66d38
+}
+
+.mobileLink a {
+  color: #b66d38
+}
+
+.closeNav {
+  position:absolute;
+  top:1rem;
+  right:2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color:#336b6f;
+  background: none;
+}
