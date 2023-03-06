@@ -16,18 +16,21 @@ span {
 .image {
   height:100%;
   width: 50%;
-  
+  margin: 0;
+  /* padding-left: 10em; */
 }
-
 .home img {
-  max-height: 20%;
+  max-height: 50%;
   max-width: 100%;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+  /* display: inline; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 10em; */
+  padding: 0;
+  margin:7em 0 0 7em;
   border-radius: 20%;
 }
+
 
 .introduction {
   /* margin-top: 5em; */
@@ -38,14 +41,22 @@ span {
 .homeTitle {
   display: flex;
   font-size: 50px;
+  margin: 2.5em 0 0 0;
+  
+  
+  text-align: center;
+}
+
+.homeTitle span {
+  padding: 0 0 0 10px;
 }
 
 .homeDescription {
   padding-right: 30px;
-  margin-top: 2em;
+  margin-top: 4em;
   font-size: 30px;
   line-height: 1.2em;
-  text-align: center;
+  text-align: left;
 }
 
 /* @media  (max-width: 601px){

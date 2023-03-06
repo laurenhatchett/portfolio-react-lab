@@ -11,7 +11,7 @@ function Home() {
         </div>
     
         <div className= {styles.introduction}>
-          <h1 className={styles.homeTitle}>Hi, I'm 
+          <h1 className={styles.homeTitle}>Hi, I'm  
           <span>Lauren Hatchett.</span>
           </h1>
           <p className={styles.homeDescription}> As a Software Engineer, I am committed to providing a positive and human-centered experience that serves users with equity and efficiency. </p>

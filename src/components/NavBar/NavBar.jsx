@@ -25,7 +25,7 @@ function NavBar({}) {
           <li><a href="#projects">My Work</a></li>
           <li><a href="#skills"
           >Skills</a></li>
-          <li><a href="#resume">Resume</a></li>
+          {/* <li><a href="#resume">Resume</a></li> */}
         </ul>
       </div>
 
