@@ -25,6 +25,7 @@
   margin-bottom: 1em;
   padding: 10px 0 0 0;
   border-radius: 20%;
+  
 }
 
 .description {
@@ -34,9 +35,30 @@
   line-height: 1.2em;
   margin-left: 4em;
   padding: 5em 1em 0 0em;
+  
 }
 
 p{
   text-align: left;
 }
 
+@media only screen and (max-width: 786px){
+  .about {
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    justify-content: center;
+    order: 2;
+  }
+
+  .about img {
+    margin: 0 0 0 7em;
+    height:auto;
+    max-width: 70%;
+    order: 1;
+  }
+}
